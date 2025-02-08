@@ -510,7 +510,7 @@ void scene3() {
 		//	render(renderer, m, camera, L);
 
 		//unsigned int numCpuCores = std::thread::hardware_concurrency();
-		unsigned int numCpuCores = 22;
+		unsigned int numCpuCores = 8;
 
 		std::vector<std::thread> threads(numCpuCores);
 
@@ -551,8 +551,8 @@ void scene3() {
 int main() {
 	// Uncomment the desired scene function to run
 	//scene1();
-	//scene2();
-	scene3();
+	scene2();
+	//scene3();
 
 	//sceneTest(); 
 
